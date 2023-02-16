@@ -1,0 +1,310 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b402fd68ac087f533cb278665a7aef67",
+    "packages": [
+        {
+            "name": "comely-io/buffer-php",
+            "version": "0.1.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/comely-io/buffer-php.git",
+                "reference": "33b1c6bb172d19daae4ab12f355990457711a44d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/comely-io/buffer-php/zipball/33b1c6bb172d19daae4ab12f355990457711a44d",
+                "reference": "33b1c6bb172d19daae4ab12f355990457711a44d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gmp": "*",
+                "php": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Comely\\Buffer\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Arbitrary bytes buffer in PHP",
+            "homepage": "https://github.com/comely-io/buffer-php",
+            "support": {
+                "issues": "https://github.com/comely-io/buffer-php/issues",
+                "source": "https://github.com/comely-io/buffer-php/tree/0.1.15"
+            },
+            "time": "2023-02-16T07:24:20+00:00"
+        },
+        {
+            "name": "comely-io/utils",
+            "version": "2.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/comely-io/utils.git",
+                "reference": "28e67c25bdd170c09bbd1198b354227b4dc75461"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/comely-io/utils/zipball/28e67c25bdd170c09bbd1198b354227b4dc75461",
+                "reference": "28e67c25bdd170c09bbd1198b354227b4dc75461",
+                "shasum": ""
+            },
+            "require": {
+                "ext-bcmath": "*",
+                "ext-gmp": "*",
+                "ext-mbstring": "*",
+                "php": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Comely\\Utils\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Utilities for Comely Apps",
+            "homepage": "https://github.com/comely-io/utils",
+            "support": {
+                "issues": "https://github.com/comely-io/utils/issues",
+                "source": "https://github.com/comely-io/utils/tree/2.0.6"
+            },
+            "time": "2022-07-07T15:57:54+00:00"
+        },
+        {
+            "name": "furqansiddiqui/bip32-keypair-php",
+            "version": "0.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/furqansiddiqui/bip32-keypair-php.git",
+                "reference": "04ff3c3dde35ea8722d48669484a7ac17e538219"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/furqansiddiqui/bip32-keypair-php/zipball/04ff3c3dde35ea8722d48669484a7ac17e538219",
+                "reference": "04ff3c3dde35ea8722d48669484a7ac17e538219",
+                "shasum": ""
+            },
+            "require": {
+                "comely-io/buffer-php": "^0.1.12",
+                "ext-bcmath": "*",
+                "ext-gmp": "*",
+                "ext-openssl": "*",
+                "furqansiddiqui/ecdsa-php": "^0.3.5",
+                "php-64bit": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FurqanSiddiqui\\BIP32\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "BIP32 keypairs lib for PHP",
+            "homepage": "https://github.com/furqansiddiqui/bip32-keypair-php",
+            "support": {
+                "issues": "https://github.com/furqansiddiqui/bip32-keypair-php/issues",
+                "source": "https://github.com/furqansiddiqui/bip32-keypair-php/tree/0.3.4"
+            },
+            "time": "2023-02-16T13:03:38+00:00"
+        },
+        {
+            "name": "furqansiddiqui/bip39-mnemonic-php",
+            "version": "0.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/furqansiddiqui/bip39-mnemonic-php.git",
+                "reference": "673d19ef6b771dd69810df86d607e10cd41641e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/furqansiddiqui/bip39-mnemonic-php/zipball/673d19ef6b771dd69810df86d607e10cd41641e9",
+                "reference": "673d19ef6b771dd69810df86d607e10cd41641e9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php-64bit": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FurqanSiddiqui\\BIP39\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "BIP39 Mnemonics implementation in PHP",
+            "keywords": [
+                "BIP-0039",
+                "bip39",
+                "mnemonics"
+            ],
+            "support": {
+                "issues": "https://github.com/furqansiddiqui/bip39-mnemonic-php/issues",
+                "source": "https://github.com/furqansiddiqui/bip39-mnemonic-php/tree/0.1.7"
+            },
+            "time": "2023-02-13T13:54:02+00:00"
+        },
+        {
+            "name": "furqansiddiqui/ecdsa-php",
+            "version": "0.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/furqansiddiqui/ecdsa-php.git",
+                "reference": "69b28d303c5e21a58e0eee8d20965bb6cef33839"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/furqansiddiqui/ecdsa-php/zipball/69b28d303c5e21a58e0eee8d20965bb6cef33839",
+                "reference": "69b28d303c5e21a58e0eee8d20965bb6cef33839",
+                "shasum": ""
+            },
+            "require": {
+                "comely-io/buffer-php": "^0.1.11",
+                "ext-bcmath": "*",
+                "ext-curl": "*",
+                "ext-gmp": "*",
+                "ext-openssl": "*",
+                "php-64bit": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FurqanSiddiqui\\ECDSA\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "ECDSA (Elliptic Curves) lib for PHP",
+            "homepage": "https://github.com/furqansiddiqui/ecdsa-php",
+            "support": {
+                "issues": "https://github.com/furqansiddiqui/ecdsa-php/issues",
+                "source": "https://github.com/furqansiddiqui/ecdsa-php/tree/0.3.5"
+            },
+            "time": "2023-02-03T23:26:15+00:00"
+        },
+        {
+            "name": "furqansiddiqui/ethereum-php",
+            "version": "0.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/furqansiddiqui/ethereum-php.git",
+                "reference": "1672cac5da074e455b4bbdf84c5410bcb5deea17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/furqansiddiqui/ethereum-php/zipball/1672cac5da074e455b4bbdf84c5410bcb5deea17",
+                "reference": "1672cac5da074e455b4bbdf84c5410bcb5deea17",
+                "shasum": ""
+            },
+            "require": {
+                "comely-io/buffer-php": "^0.1.14",
+                "comely-io/utils": "^2.0.6",
+                "ext-bcmath": "*",
+                "ext-curl": "*",
+                "ext-gmp": "*",
+                "ext-json": "*",
+                "ext-openssl": "*",
+                "furqansiddiqui/bip32-keypair-php": "^0.3.4",
+                "furqansiddiqui/bip39-mnemonic-php": "^0.1.6",
+                "furqansiddiqui/ecdsa-php": "^0.3.3",
+                "php-64bit": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FurqanSiddiqui\\Ethereum\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Furqan A. Siddiqui",
+                    "email": "hello@furqansiddiqui.com",
+                    "homepage": "https://www.furqansiddiqui.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Ethereum lib PHP",
+            "homepage": "https://github.com/furqansiddiqui/ethereum-php",
+            "support": {
+                "issues": "https://github.com/furqansiddiqui/ethereum-php/issues",
+                "source": "https://github.com/furqansiddiqui/ethereum-php/tree/0.2.4"
+            },
+            "time": "2023-02-16T13:08:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

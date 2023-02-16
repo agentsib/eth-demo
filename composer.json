@@ -1,0 +1,14 @@
+{
+    "name": "agentsib/eth-demo",
+    "description": "Demo",
+    "authors": [
+        {
+            "name": "AgentSIB",
+            "email": "agentsib@gmail.com"
+        }
+    ],
+    "require": {
+        "furqansiddiqui/bip39-mnemonic-php": "^0.1.7",
+        "furqansiddiqui/ethereum-php": "^0.2.4"
+    }
+}
